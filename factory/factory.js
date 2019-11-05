@@ -49,7 +49,7 @@ doEnrollment = (enrollmentType, user) => {
 // ... Well, Now that we have 50 new programs coming in, maybe there is a better way... 
 // What is this new way? 
 
-// It is the way of the Facade. 
+// It is the way of the Factory. 
 // So heres what the program structure can now look like
  
 // enrollment.js: 
@@ -72,7 +72,7 @@ doEnrollment = (programName, user) => {
 // ... So how do we do this?
 
 
-// Well first lets get into how Facade's work: 
+// Well first lets get into how Factory's work: 
 // https://en.wikipedia.org/wiki/Factory_method_pattern
 
 // We'll have two files: 
